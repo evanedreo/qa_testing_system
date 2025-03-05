@@ -88,7 +88,9 @@ curl -X POST "http://127.0.0.1:8000/create_task" \
 ```
 
 ### Output
+```sh
 {"task_id":"1d2479d3-5333-413c-8457-30bfb7618725","status":"running","results":[]}
+```
 
 ### Input 
 ```sh
