@@ -77,6 +77,7 @@ curl -X GET "http://127.0.0.1:8000/task/<task_id>"
 ```
 
 ## Example Output
+## Input
 ```sh
 curl -X POST "http://127.0.0.1:8000/create_task" \
      -H "Content-Type: application/json" \
@@ -90,6 +91,8 @@ curl -X POST "http://127.0.0.1:8000/create_task" \
 evanedreo@evans-mbp-3 qa_testing_system % curl -X GET "http://127.0.0.1:8000/task/1d2479d3-5333-413c-8457-30bfb7618725"
 {"task_id":"1d2479d3-5333-413c-8457-30bfb7618725","status":"running","results":[]}
 ```
+
+### Output
 
 ```sh                       
 evanedreo@evans-mbp-3 qa_testing_system % curl -X GET "http://127.0.0.1:8000/task/1d2479d3-5333-413c-8457-30bfb7618725"
