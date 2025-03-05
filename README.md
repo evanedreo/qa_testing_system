@@ -52,6 +52,8 @@ python -m uvicorn main:app --reload
 ```
 
 ## Testing the API
+###Set up your API Key
+Create a new .env file, and write your OPENAI_API_KEY=example_key
 ### Create a Task
 Run the following command to create a task:
 ```sh
