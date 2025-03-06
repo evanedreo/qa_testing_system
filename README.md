@@ -45,7 +45,7 @@ Python 3.11.x
 ### 5️⃣ Install dependencies
 ```sh
 pip install --upgrade pip
-pip install fastapi uvicorn browser-use
+pip install fastapi uvicorn browser-use langchain_openai openai python-dotenv pydantic uuid threading logging asyncio playwright
 ```
 
 ## Running the FastAPI App
