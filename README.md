@@ -1,5 +1,8 @@
 # Project Setup Guide
 
+## Notes =
+When the browser-use run, it is better open the browser in a monitor (large than a typical laptop screen).  
+
 ## Cloning the Repository
 To get started, clone this repository to your local machine:
 ```sh
